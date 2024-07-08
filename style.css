@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/* font-family: "Work Sans", sans-serif; */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+.col-30 {
+  width: 33.33%;
+  /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+.col-50 {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#hero {
+  height: 600px;
+  background-image: linear-gradient(
+      180deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url("./assets/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#hero .hero-section {
+  width: 700px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+}
+#hero .hero-section .subtittle {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+#hero .hero-section .tittle {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 14px;
+}
+#hero .hero-section .description {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.btn {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  padding: 18px 26px 18px 26px;
+  border: none;
+  background: rgb(82, 195, 3);
+}
+/* alwys section */
+.alwys {
+  padding: 60px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.alwys-tittle {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 28px;
+  padding: 0 30px;
+}
+.short-tittle {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+  margin-bottom: 28px;
+}
+.folow {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+  border-top: 1px solid rgba(16, 16, 16, 0.2);
+  margin: 30px 0;
+  padding: 8px 0;
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.icon i {
+  margin: 0 15px;
+  font-size: 35px;
+}
+#food {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+#food .folow {
+  border: none;
+  margin: 0;
+  opacity: 0.6;
+}
+#food .alwys {
+  margin: 25px 0;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.food-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.food-btn {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  justify-content: center;
+  border: none;
+  border-radius: 5px;
+  background: rgba(82, 195, 3, 0.15);
+  align-items: center;
+  padding: 8px 20px;
+  margin: 20px 0;
+}
+
+#card .offer {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#card .short-tittle {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+#food-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 150px;
+  box-shadow: 10px;
+}
+#food-card .col-30 {
+  margin: 0 15px;
+}
+.sells-btn {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: none;
+  padding: 16px 20px;
+  background: rgb(82, 195, 3);
+}
+.single-card {
+  padding: 60px 0;
+}
+
+.single-card #card {
+  padding: 0 70px;
+}
+
+.single-card .food-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  position: relative;
+  padding: 60px 0;
+}
+.footer::before {
+  background-image: url("./assets/social-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1;
+  content: "";
+  position: absolute;
+  opacity: 0.2;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
